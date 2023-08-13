@@ -1,8 +1,11 @@
 {
-  "name": "bulk-rename-cli",
+  "name": "image-resize-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "bin": {
+    "imgresize": "./dist/index.js"
+  },
   "scripts": {
     "build": "npx tsc",
     "dev": "ts-node src/index.ts",
