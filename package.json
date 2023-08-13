@@ -9,6 +9,7 @@
   "scripts": {
     "build": "npx tsc",
     "dev": "ts-node src/index.ts",
+    "cli:install": "npm install -g .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
