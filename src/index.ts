@@ -1,3 +1,7 @@
-import * as figlet from "figlet";
+import figlet from "figlet";
+import { Command } from "commander";
+import chalk from "chalk";
 
-console.log(figlet.textSync("Hello World!"));
+const program = new Command();
+
+console.log(chalk.blue(figlet.textSync("Hello World!")));
